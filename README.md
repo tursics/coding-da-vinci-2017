@@ -127,6 +127,30 @@ SELECT DISTINCT ?denkmal ?denkmalLabel ?coordinates WHERE {
 
 Goal: Sind bereits geogetaggt
 
+Recherche:
+- [Metadaten – Runterscrollen zu Coding da Vinci](http://mauer-fotos.de/info/nutzungshinweise)
+  - [Download CSV](http://www.mauer-fotos.de/site/assets/files/31020587/coding-da-vinci-metadaten.csv)
+  - 0,2 MByte
+  - 200 Objekte
+  - 196 Geopositionen
+- [Fotos](http://www.mauer-fotos.de/)
+
+---
+
+**Berlinische Galerie**
+
+- Datensatz: Heinrich Zille Konvolut
+- Zille als Fotograf
+
+Recherche:
+- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/TSoVCI2L4GustL6)
+  - 6,1 MByte
+  - 624 Objekte
+  - 1872 referenzierte Bilder (Thumb + Preview + Master)
+  - 0 <gml:pos> Geopositionen
+- [Mediendaten](http://136.243.4.67/index.php/s/cHxfZmr1U34hcJK)
+- (Die Daten der Berlinischen Galerie sind sowohl über die DDB als auch über die OwnCloud-Instanz von Coding da Vinci zugänglich.)
+
 ---
 
 **Berlinische Galerie**
@@ -135,6 +159,15 @@ Goal: Sind bereits geogetaggt
 - ca. 515 Datensätze mit Fotos aus der Mitte bis Ende des 19. Jahrhunderts
 
 Goal: LIDO-DDB XML
+
+Recherche:
+- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/bst1wUtBHnJyPuv)
+  - 1,5 + 1,8 + 1,5 MByte
+  - 159 + 188 + 166 Objekte
+  - 477 + 564 + 498 referenzierte Bilder (Thumb + Preview + Master)
+  - 0 + 0 + 0 <gml:pos> Geopositionen
+- [Mediendaten](http://136.243.4.67/index.php/s/ib48ePnU43Dcv4s)
+- (Die Daten der Berlinischen Galerie sind sowohl über die DDB als auch über die OwnCloud-Instanz von Coding da Vinci zugänglich.)
 
 ---
 
