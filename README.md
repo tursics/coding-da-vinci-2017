@@ -76,10 +76,13 @@ Goal: mittelgroße Bilddatei, testweise kml-Ortsdatei (aber nur Städtenamen)
 Kontakt: georg.schelbert@hu-berlin.de
 
 Recherche:
-- [API](http://imeji-mediathek.de/imeji/rest/items?q=q=((bjPdsFEA_f4gqRo0%3Atext%3D%22Deutschland%22))&size=5000&offset=0)
+- API: http://imeji-mediathek.de/imeji/rest/items?q=q=((bjPdsFEA_f4gqRo0%3Atext%3D%22Deutschland%22))&size=5000&offset=0
   - "Deutschland" hat 4621 Treffer
   - "Berlin" hat 48 Treffer
+- Liste von Wikidata: http://imeji-mediathek.de/imeji/browse?q=%28%284zzImJyVhV_MJ3dV%3Alabel%3D%22%22Wikidata%22%22%29%29
 - [API-Dokumentation](https://github.com/imeji-community/imeji/wiki)
+- eine [GeoJSON-Datei](https://gist.github.com/schelbertgeorg/ac3e32a0b37230fc2ba90c096d2f0602)
+- Hier soll sich eine [Swagger-Doku](https://helloreverb.com/developers/swagger) befinden, die API ist [hier](https://github.com/imeji-community/imeji/wiki) beschrieben
 
 ---
 
