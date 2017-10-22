@@ -80,3 +80,41 @@ SELECT DISTINCT ?denkmal ?denkmalLabel ?coordinates WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],de,en". }
 }
 ```
+
+![Wikidata](https://raw.githubusercontent.com/tursics/coding-da-vinci-2017/master/docs/denkmalliste-1.png)
+
+---
+
+**Stiftung Berliner Mauer**
+
+- Datensatz: Mauer-Fotos
+- ca. 200 Fotos
+
+Goal: Sind bereits geogetaggt
+
+---
+
+**Berlinische Galerie**
+
+- Datensatz: Berliner Stadtansichten 
+- ca. 515 Datensätze mit Fotos aus der Mitte bis Ende des 19. Jahrhunderts
+
+Goal: LIDO-DDB XML
+
+---
+
+**Stadtmuseum Berlin**
+
+- Datensatz: Heinrich Zille - Ein Berliner unter Berlinern
+- einige Fotos mit Stadtansichten, viele Personenmotive (insgesamt 2500 Bilder)
+
+---
+
+**Wikidata**
+
+- Basisinfos zu Objekten
+
+Goal: Man könnte unterschiedliche Schreibweisen und Zusatzinfos zu Objekten finden und Querverbindungen
+
+
+
