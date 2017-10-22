@@ -17,7 +17,7 @@ Der Hackathon startete am 21. Oktober und geht 6 Wochen.
 Die Institutionen
 -----------------
 
-**Stadtmuseum Berlin**
+**Stiftung Stadtmuseum Berlin**
 
 - Datensatz: 1000x Berlin
 - ca. 1300 Objekte
@@ -25,6 +25,14 @@ Die Institutionen
 - Fußgänger- und Vogelperspektive
 
 Goal: Riesige TIFF-Karten (sind allerdings nachzufragen)
+
+Recherche:
+- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/v0UEpnXQcCOOZy3)
+  - 10,8 MByte
+  - 1169 Objekte
+  - 1290 referenzierte Bilder
+- [Mediendateien](http://136.243.4.67/index.php/s/dx0RUXWIV1S8MnP)
+- (Der Datensatz des Stadtmuseums ist ebenfalls über die DDB zugänglich.)
 
 ---
 
@@ -103,10 +111,18 @@ Goal: LIDO-DDB XML
 
 ---
 
-**Stadtmuseum Berlin**
+**Stiftung Stadtmuseum Berlin**
 
 - Datensatz: Heinrich Zille - Ein Berliner unter Berlinern
 - einige Fotos mit Stadtansichten, viele Personenmotive (insgesamt 2500 Bilder)
+
+Recherche:
+- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/rijMXOyuszSxUYH)
+  - 26,1 MByte
+  - 2608 Objekte
+  - 2668 referenzierte Bilder
+- [Mediendateien](http://136.243.4.67/index.php/s/0rlgcVXHqdkq8vS)
+- (Der Datensatz des Stadtmuseums ist ebenfalls über die DDB zugänglich.)
 
 ---
 
@@ -116,5 +132,11 @@ Goal: LIDO-DDB XML
 
 Goal: Man könnte unterschiedliche Schreibweisen und Zusatzinfos zu Objekten finden und Querverbindungen
 
+Wissenswertes
+-------------
 
+Es gibt bereits tolle Projekte, die ich mir anschauen sollte:
+- [Historisches Datenmaterial als Karte](https://jochenklar.de/berlin/)
+- [LIDO-Spec](http://network.icom.museum/cidoc/working-groups/lido/lido-technical/specification/)
+- [LIDO DDB-Preview](https://www.servicestelle-digitalisierung.de/wissenswertes/ddb-preview/)
 
