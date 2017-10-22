@@ -31,6 +31,7 @@ Recherche:
   - 10,8 MByte
   - 1169 Objekte
   - 1290 referenzierte Bilder
+  - 0 <gml:pos> Geopositionen
 - [Mediendateien](http://136.243.4.67/index.php/s/dx0RUXWIV1S8MnP)
 - (Der Datensatz des Stadtmuseums ist ebenfalls über die DDB zugänglich.)
 
@@ -38,14 +39,24 @@ Recherche:
 
 **FHXB Friedrichshain-Kreuzberg Museum**
 
-- Datensatz: Künstlerkreis Kreuzberger Boheme
+- Datensatz: Künstlerkreis "Kreuzberger Boheme"
 - 416 Kunstwerke, u.a. Stadtansichten
 
 Goal: LIDO-XML (falsche Info für Metadata. Sie stehen unter CC-0)
 
+Recherche:
+- [API Dokumentation museum-digital](http://www.museum-digital.de/handbook/?lan=de&q=Ausgabe/APIs)
+- Sammlungs-IDs als [Exceltabelle](http://136.243.4.67/index.php/s/2RmwERCaDGv2C8A)
+- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/047jsxdCtv9CtYE)
+  - 4,1 MByte
+  - 417 Objekte
+  - 1251 referenzierte Bilder (Thumb + Preview + Master)
+  - 417 <gml:pos> Geopositionen
+- (Der Datensatz ist ebenfalls über die DDB zugänglich.)
+
 ---
 
-**Humboldt-Universität zu Berlin, Institut für Kunst- und Bildgeschichte, Mediathek**
+**Humboldt-Universität zu Berlin, Institut für Kunst- und Bildgeschichte**
 
 - Datensatz: Historische Glasdiasammlung
 - ca. 55.000 Bilder (4.000 bereits verfügbar)
@@ -55,6 +66,12 @@ Goal: LIDO-XML (falsche Info für Metadata. Sie stehen unter CC-0)
 Goal: mittelgroße Bilddatei, testweise kml-Ortsdatei (aber nur Städtenamen)
 
 Kontakt: georg.schelbert@hu-berlin.de
+
+Recherche:
+- [API](http://imeji-mediathek.de/imeji/rest/items?q=q=((bjPdsFEA_f4gqRo0%3Atext%3D%22Deutschland%22))&size=5000&offset=0)
+  - "Deutschland" hat 4621 Treffer
+  - "Berlin" hat 48 Treffer
+- [API-Dokumentation](https://github.com/imeji-community/imeji/wiki)
 
 ---
 
@@ -71,9 +88,19 @@ Goal: Daten werden in einer Doc-Datei gepflegt
 Kontakt: juliane.stamm@lda.berlin.de
 
 Recherche:
+- [Metadaten](http://136.243.4.67/index.php/s/flgYzGjdkwi9nOe)
+  - Denkmaldatenbank
+    - 12150 Objekte
+	- Straße + Hausnummer (keine Geodaten)
+  - Denkmalliste
+    - ca. 34000 Objekte
+  - Geodaten
+    - 20401 Geopunkte
+- [Dokumentation](http://136.243.4.67/index.php/s/OZKvRAFK6BMzdSG/download)
+- Denkmalkartierungen über [Web Map Service (WMS)](https://daten.berlin.de/datensaetze/denkmalkarte-berlin-wms) und [ATOM Feed](https://daten.berlin.de/datensaetze/denkmalkarte-berlin-atom)
+- [Datensatz im Datenportal](https://daten.berlin.de/datensaetze/denkmalliste-des-landes-berlin)
 - [Wikiprojekt](https://de.wikipedia.org/wiki/Wikipedia:WikiProjekt_Listen_der_Kulturdenkmale_in_Berlin)
 - [Liste in Wikipedia](https://de.wikipedia.org/wiki/Liste_der_Kulturdenkmale_in_Berlin)
-- [Datensatz im Datenportal](https://daten.berlin.de/datensaetze/denkmalliste-des-landes-berlin)
 - 1111 Einträge in Wikidata vorhanden
   - 105 keine Geokoordinaten
   - Recherche und [Wikidata Query](https://query.wikidata.org/#%23 Items with Berlin cultural heritage ID%0A%23 Einträge mit Objektdokumentennummer der Berliner Denkmaldatenbank%0A%23defaultView%3AMap%0ASELECT DISTINCT %3Fdenkmal %3FdenkmalLabel %3Fcoordinates WHERE {%0A %3Fdenkmal wdt%3AP2424 %3Fid %3B%0A wdt%3AP625 %3Fcoordinates .%0A SERVICE wikibase%3Alabel { bd%3AserviceParam wikibase%3Alanguage "[AUTO_LANGUAGE]%2Cde%2Cen". }%0A}) von Daniel Mietchen
@@ -121,6 +148,7 @@ Recherche:
   - 26,1 MByte
   - 2608 Objekte
   - 2668 referenzierte Bilder
+  - 0 <gml:pos> Geopositionen
 - [Mediendateien](http://136.243.4.67/index.php/s/0rlgcVXHqdkq8vS)
 - (Der Datensatz des Stadtmuseums ist ebenfalls über die DDB zugänglich.)
 
@@ -136,6 +164,7 @@ Wissenswertes
 -------------
 
 Es gibt bereits tolle Projekte, die ich mir anschauen sollte:
+- die allgemeine [Daten-Seite](https://codingdavinci.de/daten/) von Coding da Vinci
 - [Historisches Datenmaterial als Karte](https://jochenklar.de/berlin/)
 - [LIDO-Spec](http://network.icom.museum/cidoc/working-groups/lido/lido-technical/specification/)
 - [LIDO DDB-Preview](https://www.servicestelle-digitalisierung.de/wissenswertes/ddb-preview/)
