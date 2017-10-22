@@ -10,12 +10,20 @@ Die Challenge
 
 Helene fragte sich, ob ich es schaffen könnte, alle stadtbezogenen Daten von den beteiligten Kulturinstitutionen miteinander zu verknüpfen. Es geht hier um die örtliche Verknüpfung. Vorraussetzung ist, dass alle Daten (meist Bilder, Fotos, Zeichnungen, Gemälde, ...) über Geocoordinaten verfügen.
 
-Dieses Projekt soll allen Kulturdaten Geopunkte zuweisen. Das Ergebnis soll idealerweise **eine GeoJSON-Datei pro Institution** sein. Am Ende also eine einfache Karte.
+Dieses Projekt soll allen Kulturdaten mit Stadtansichten Geopunkte zuweisen. Das Ergebnis soll idealerweise **eine GeoJSON-Datei pro Institution** sein. Am Ende also eine einfache Karte.
 
 Der Hackathon startete am 21. Oktober und geht 6 Wochen.
 
 Die Institutionen
 -----------------
+
+Stand vom 22. Oktober 2017
+
+8 Datenquellen von Institutionen haben Stadtansichten von Berlin
+- 1 API hat 48 Treffer für Berlin, 4621 für Deutschland, mit 0 Geopositionen (0%)
+- 1 Denkmalliste enthält ca. 34000 Objekte mit 20.401 Geopositionen (60%)
+- 1 Datensatz enthält 200 Objekte mit 196 Geopositionen (98%)
+- 5 Datensätze enthalten LIDO-Daten mit 5.331 Objekten mit 417 Geopositionen (7,8%)
 
 **Stiftung Stadtmuseum Berlin**
 
