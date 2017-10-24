@@ -38,45 +38,44 @@ Berlinische Galerie          |Berliner Stadtansichten, Rueckwardt  |LIDO-XML  |j
 Berlinische Galerie          |Berliner Stadtansichten, Panckow  |LIDO-XML  |ja  |166  |166  |0  |[1,5 MByte](http://136.243.4.67/index.php/s/bst1wUtBHnJyPuv)
 FHXB Friedrichshain-Kreuzberg Museum  |Künstlerkreis "Kreuzberger Boheme"  |LIDO-XML  |ja  |417  |417  |417  (immer der gleiche Punkt)|[4,1 MByte](http://136.243.4.67/index.php/s/047jsxdCtv9CtYE)
 
-
 **Stiftung Stadtmuseum Berlin**
 
 - Datensatz: 1000x Berlin
-- ca. 1300 Objekte
 - Stadtansichten und 'vor den Toren der Stadt'
 - Fußgänger- und Vogelperspektive
-
-Goal: Riesige TIFF-Karten (sind allerdings nachzufragen)
-
-Recherche:
-- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/v0UEpnXQcCOOZy3)
-  - 10,8 MByte
-  - 1169 Objekte
-  - 1290 referenzierte Bilder
-  - 0 <gml:pos> Geopositionen
+- Riesige TIFF-Karten (sind allerdings nachzufragen)
 - [Mediendateien](http://136.243.4.67/index.php/s/dx0RUXWIV1S8MnP)
-- (Der Datensatz des Stadtmuseums ist ebenfalls über die DDB zugänglich.)
-
----
 
 **FHXB Friedrichshain-Kreuzberg Museum**
 
 - Datensatz: Künstlerkreis "Kreuzberger Boheme"
-- 416 Kunstwerke, u.a. Stadtansichten
-
-Goal: LIDO-XML (falsche Info für Metadata. Sie stehen unter CC-0)
-
-Recherche:
+- Kunstwerke, u.a. Stadtansichten
 - [API Dokumentation museum-digital](http://www.museum-digital.de/handbook/?lan=de&q=Ausgabe/APIs)
 - Sammlungs-IDs als [Exceltabelle](http://136.243.4.67/index.php/s/2RmwERCaDGv2C8A)
-- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/047jsxdCtv9CtYE)
-  - 4,1 MByte
-  - 417 Objekte
-  - 1251 referenzierte Bilder (Thumb + Preview + Master)
-  - 417 <gml:pos> Geopositionen
-- (Der Datensatz ist ebenfalls über die DDB zugänglich.)
 
----
+**Stiftung Berliner Mauer**
+
+- Datensatz: Mauer-Fotos
+- [Metadaten – Runterscrollen zu Coding da Vinci](http://mauer-fotos.de/info/nutzungshinweise)
+- [Fotos](http://www.mauer-fotos.de/)
+
+**Berlinische Galerie**
+
+- Datensatz: Heinrich Zille Konvolut
+- Zille als Fotograf
+- [Mediendaten](http://136.243.4.67/index.php/s/cHxfZmr1U34hcJK)
+
+**Berlinische Galerie**
+
+- Datensatz: Berliner Stadtansichten 
+- Fotos aus der Mitte bis Ende des 19. Jahrhunderts
+- [Mediendaten](http://136.243.4.67/index.php/s/ib48ePnU43Dcv4s)
+
+**Stiftung Stadtmuseum Berlin**
+
+- Datensatz: Heinrich Zille - Ein Berliner unter Berlinern
+- einige Fotos mit Stadtansichten, viele Personenmotive (insgesamt 2500 Bilder)
+- [Mediendateien](http://136.243.4.67/index.php/s/0rlgcVXHqdkq8vS)
 
 **Humboldt-Universität zu Berlin, Institut für Kunst- und Bildgeschichte**
 
@@ -84,12 +83,8 @@ Recherche:
 - ca. 55.000 Bilder (4.000 bereits verfügbar)
 - weltweite Daten, teilweise aus Berlin
 - enthalten teilweise Metadaten
-
-Goal: mittelgroße Bilddatei, testweise kml-Ortsdatei (aber nur Städtenamen)
-
-Kontakt: georg.schelbert@hu-berlin.de
-
-Recherche:
+- mittelgroße Bilddatei, testweise kml-Ortsdatei (aber nur Städtenamen)
+- Kontakt: georg.schelbert@hu-berlin.de
 - API: http://imeji-mediathek.de/imeji/rest/items?q=q=((bjPdsFEA_f4gqRo0%3Atext%3D%22Deutschland%22))&size=5000&offset=0
   - "Deutschland" hat 4621 Treffer
   - "Berlin" hat 48 Treffer
@@ -98,21 +93,13 @@ Recherche:
 - eine [GeoJSON-Datei](https://gist.github.com/schelbertgeorg/ac3e32a0b37230fc2ba90c096d2f0602)
 - Hier soll sich eine [Swagger-Doku](https://helloreverb.com/developers/swagger) befinden, die API ist [hier](https://github.com/imeji-community/imeji/wiki) beschrieben
 
----
-
 **Landesdenkmalamt Berlin**
 
 - Datensatz: Denkmalinformationssystem
-- ca. 1000 seitiges PDF
 - der Datenbankdump ist am Besten
 - es gibt eine Denkmalliste in Wikipedia
 - es gibt Fotos über 'Wiki loves Monuments'
-
-Goal: Daten werden in einer Doc-Datei gepflegt
-
-Kontakt: juliane.stamm@lda.berlin.de
-
-Recherche:
+- Kontakt: juliane.stamm@lda.berlin.de
 - [Metadaten](http://136.243.4.67/index.php/s/flgYzGjdkwi9nOe)
   - Denkmaldatenbank
     - 12150 Objekte
@@ -145,78 +132,10 @@ SELECT DISTINCT ?denkmal ?denkmalLabel ?coordinates WHERE {
 
 ---
 
-**Stiftung Berliner Mauer**
-
-- Datensatz: Mauer-Fotos
-- ca. 200 Fotos
-
-Goal: Sind bereits geogetaggt
-
-Recherche:
-- [Metadaten – Runterscrollen zu Coding da Vinci](http://mauer-fotos.de/info/nutzungshinweise)
-  - [Download CSV](http://www.mauer-fotos.de/site/assets/files/31020587/coding-da-vinci-metadaten.csv)
-  - 0,2 MByte
-  - 200 Objekte
-  - 196 Geopositionen
-- [Fotos](http://www.mauer-fotos.de/)
-
----
-
-**Berlinische Galerie**
-
-- Datensatz: Heinrich Zille Konvolut
-- Zille als Fotograf
-
-Recherche:
-- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/TSoVCI2L4GustL6)
-  - 6,1 MByte
-  - 624 Objekte
-  - 1872 referenzierte Bilder (Thumb + Preview + Master)
-  - 0 <gml:pos> Geopositionen
-- [Mediendaten](http://136.243.4.67/index.php/s/cHxfZmr1U34hcJK)
-- (Die Daten der Berlinischen Galerie sind sowohl über die DDB als auch über die OwnCloud-Instanz von Coding da Vinci zugänglich.)
-
----
-
-**Berlinische Galerie**
-
-- Datensatz: Berliner Stadtansichten 
-- ca. 515 Datensätze mit Fotos aus der Mitte bis Ende des 19. Jahrhunderts
-
-Goal: LIDO-DDB XML
-
-Recherche:
-- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/bst1wUtBHnJyPuv)
-  - 1,5 + 1,8 + 1,5 MByte
-  - 159 + 188 + 166 Objekte
-  - 477 + 564 + 498 referenzierte Bilder (Thumb + Preview + Master)
-  - 0 + 0 + 0 <gml:pos> Geopositionen
-- [Mediendaten](http://136.243.4.67/index.php/s/ib48ePnU43Dcv4s)
-- (Die Daten der Berlinischen Galerie sind sowohl über die DDB als auch über die OwnCloud-Instanz von Coding da Vinci zugänglich.)
-
----
-
-**Stiftung Stadtmuseum Berlin**
-
-- Datensatz: Heinrich Zille - Ein Berliner unter Berlinern
-- einige Fotos mit Stadtansichten, viele Personenmotive (insgesamt 2500 Bilder)
-
-Recherche:
-- LIDO-XML-[Metadaten](http://136.243.4.67/index.php/s/rijMXOyuszSxUYH)
-  - 26,1 MByte
-  - 2608 Objekte
-  - 2668 referenzierte Bilder
-  - 0 <gml:pos> Geopositionen
-- [Mediendateien](http://136.243.4.67/index.php/s/0rlgcVXHqdkq8vS)
-- (Der Datensatz des Stadtmuseums ist ebenfalls über die DDB zugänglich.)
-
----
-
 **Wikidata**
 
 - Basisinfos zu Objekten
-
-Goal: Man könnte unterschiedliche Schreibweisen und Zusatzinfos zu Objekten finden und Querverbindungen
+- Man könnte unterschiedliche Schreibweisen und Zusatzinfos zu Objekten finden und Querverbindungen
 
 
 Wissenswertes
