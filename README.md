@@ -27,7 +27,7 @@ Stand vom 22. Oktober 2017
 
 Museum  | Datensatz | Format | DDB | Objekte | Bilder | Geo-Koordinaten | Metadaten |
 --------|-----------|--------|:---:|--------:|-------:|----------------:|-----------|
-Humboldt-Universität zu Berlin, Institut für Kunst- und Bildgeschichte  |Historische Glasdiasammlung  |API  |nein  |48  |48  |"Berlin"|[0,1 MByte](http://imeji-mediathek.de/imeji/rest/items?q=q=((bjPdsFEA_f4gqRo0%3Atext%3D%22Berlin%22)
+Humboldt-Universität zu Berlin, Institut für Kunst- und Bildgeschichte  |Historische Glasdiasammlung  |API  |nein  |48  |48  |"Berlin"|[0,1 MByte](http://imeji-mediathek.de/imeji/rest/items?q=q=((bjPdsFEA_f4gqRo0%3Atext%3D%22Berlin%22)))
 Landesdenkmalamt Berlin      |Denkmalinformationssystem  |DOC-Datei  |nein  |34000  |0  |0  |[ca. 1000 Seiten](https://daten.berlin.de/datensaetze/denkmalliste-des-landes-berlin)
 Stiftung Berliner Mauer      |Mauer-Fotos  |CSV  |nein  |200  |200  |196  |[0,2 MByte](http://www.mauer-fotos.de/site/assets/files/31020587/coding-da-vinci-metadaten.csv)
 Stiftung Stadtmuseum Berlin  |1000x Berlin  |LIDO-XML  |ja  |  1169|1290  |0  |[10,8 MByte](http://136.243.4.67/index.php/s/v0UEpnXQcCOOZy3)
