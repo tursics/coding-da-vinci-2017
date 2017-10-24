@@ -25,6 +25,20 @@ Stand vom 22. Oktober 2017
 - 1 Datensatz enthält 200 Objekte mit 196 Geopositionen (98%)
 - 5 Datensätze enthalten LIDO-Daten mit 5.331 Objekten mit 417 Geopositionen (7,8%)
 
+Museum  | Datensatz | Format | DDB | Objekte | Bilder | Geo-Koordinaten | Metadaten |
+--------|-----------|--------|:---:|--------:|-------:|----------------:|-----------|
+Humboldt-Universität zu Berlin, Institut für Kunst- und Bildgeschichte  |Historische Glasdiasammlung  |API  |nein  |48  |48  |"Berlin"|[0,1 MByte](http://imeji-mediathek.de/imeji/rest/items?q=q=((bjPdsFEA_f4gqRo0%3Atext%3D%22Berlin%22)
+Landesdenkmalamt Berlin      |Denkmalinformationssystem  |DOC-Datei  |nein  |34000  |0  |0  |[ca. 1000 Seiten](https://daten.berlin.de/datensaetze/denkmalliste-des-landes-berlin)
+Stiftung Berliner Mauer      |Mauer-Fotos  |CSV  |nein  |200  |200  |196  |[0,2 MByte](http://www.mauer-fotos.de/site/assets/files/31020587/coding-da-vinci-metadaten.csv)
+Stiftung Stadtmuseum Berlin  |1000x Berlin  |LIDO-XML  |ja  |  1169|1290  |0  |[10,8 MByte](http://136.243.4.67/index.php/s/v0UEpnXQcCOOZy3)
+Stiftung Stadtmuseum Berlin  |Heinrich Zille - Ein Berliner unter Berlinern  |LIDO-XML  |ja  |2608  |2668  |0  |[26,1 MByte](http://136.243.4.67/index.php/s/rijMXOyuszSxUYH)
+Berlinische Galerie          |Heinrich Zille Konvolut  |LIDO-XML  |ja  |624  |624  |0  |[6,1 MByte](http://136.243.4.67/index.php/s/TSoVCI2L4GustL6)
+Berlinische Galerie          |Berliner Stadtansichten, Schwartz  |LIDO-XML  |ja  |159  |159  |0  |[1,5 MByte](http://136.243.4.67/index.php/s/bst1wUtBHnJyPuv)
+Berlinische Galerie          |Berliner Stadtansichten, Rueckwardt  |LIDO-XML  |ja  |188  |188  |0  |[1,8 MByte](http://136.243.4.67/index.php/s/bst1wUtBHnJyPuv)
+Berlinische Galerie          |Berliner Stadtansichten, Panckow  |LIDO-XML  |ja  |166  |166  |0  |[1,5 MByte](http://136.243.4.67/index.php/s/bst1wUtBHnJyPuv)
+FHXB Friedrichshain-Kreuzberg Museum  |Künstlerkreis "Kreuzberger Boheme"  |LIDO-XML  |ja  |417  |417  |417  (immer der gleiche Punkt)|[4,1 MByte](http://136.243.4.67/index.php/s/047jsxdCtv9CtYE)
+
+
 **Stiftung Stadtmuseum Berlin**
 
 - Datensatz: 1000x Berlin
@@ -203,6 +217,7 @@ Recherche:
 - Basisinfos zu Objekten
 
 Goal: Man könnte unterschiedliche Schreibweisen und Zusatzinfos zu Objekten finden und Querverbindungen
+
 
 Wissenswertes
 -------------
